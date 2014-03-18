@@ -1,7 +1,0 @@
-   import java.rmi.*;
-   import java.util.*;
-
-   public interface DateServer extends Remote {
-      Date getDate() throws RemoteException;
-   }
-
